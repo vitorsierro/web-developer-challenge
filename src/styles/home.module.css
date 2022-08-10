@@ -1,0 +1,186 @@
+.Container{
+    background:#343434;
+    color: #9f9f9f !important;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+.Header {
+    display: flex;
+
+    width: 100%;
+    height: calc(93px);
+
+    background-color: #2b2b2b;
+  }
+.BoxLog {
+    display: flex;
+
+    height: 2.8125rem;
+    margin-left:47.5%;
+    
+    align-self: center;
+    background: none;
+    object-fit: contain;
+}
+.Container_BoxEscrever{
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.Container_Escrever {
+  width: 33rem;
+  margin: 5rem 0px 1rem;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  border: solid 1px #3b3b3b;
+  background-color: #313131;
+}
+.InputImage{
+  width: 88px;
+  height: 88px;
+  margin: 0 0.5rem 2rem 12rem;
+  padding: 32px;
+  object-fit: contain;
+  border-radius: 36px;
+  border: solid 1px #4b4b4b;
+  background-color: rgba(75, 75, 75, 0);
+  cursor:pointer;
+}
+.InputImage input[type="file"]{
+  display: none;
+}
+.inputCursor{
+  cursor:pointer;
+}
+.Container_Escrever Image{
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.Container_Escrever input{
+  width: 468px;
+  height: 40px;
+  padding: 12px 351px 11px 16px;
+  border-radius: 8px;
+  background-color: #494949;
+}
+.Container_Escrever textArea{
+  width: 468px;
+  height: 80px;
+  margin: 2rem 0rem 2rem;
+  padding: 12px 382px 51px 16px;
+  border-radius: 8px;
+  background-color: #494949;
+}
+.Container_Buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+.btnPublicar{
+  width: 98px;
+  height: 41px;
+  margin: 0 0 0 24px;
+  padding: 12px 24px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #5f5f5f;
+  
+  cursor: pointer;
+}
+.Descartar { 
+  width: 98px;
+  height: 41px;
+  margin: 0 0 0 24px;  
+  padding: 12px 24px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5f5f5f;
+  background-color: #313131;
+  
+  object-fit: contain;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+.PostsCentralize{
+  width: 33rem;
+  height: 20rem;
+  margin: 1rem 1rem;
+  place-self: center;
+
+}
+
+.Container_Posts{
+
+}
+.Container_Post{
+  display:flex;
+
+  width: 516px;
+  height: 225px;
+  
+  padding: 12px 12px 32px 24px;
+  
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+
+  border-radius: 3px;
+  border: solid 1px #3b3b3b;
+  
+  background-color: #313131;
+}
+.Container_Post img:nth-child(1){
+  width: 88px;
+  height: 88px;
+  margin: 2rem 0rem;
+  
+  object-fit: contain;
+  border-radius: 36px;
+}
+.Container_Post p:first-child{
+  width: 348px;
+  height: 80px;
+  margin: 24px 12px 24px 32px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9f9f9f;
+}
+.By{
+  display: flex;
+  flex-direction: column;
+  margin: 2px 237px 0 32px;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.By span{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.29px;
+  text-align: left;
+  color: #5f5f5f;
+}
+.Container_Post img:nth-child(3){
+  width: 20px;
+  height: 20px;
+
+  object-fit: contain;
+  cursor: pointer;
+}
